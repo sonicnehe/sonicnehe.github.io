@@ -1,57 +1,23 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
+<div>
   <head>
-    <meta charset="UTF-8">
-    <title>HTML Album Cover</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="my_profile_css.css">
+      <title>Who's Nicolas Fernandez?</title>
   </head>
   <body>
-    <div class="wrapper">
-      <div id="front" class="album">
-        <div id="title-box">
+    <h1>Hi my name is Nicolas Fernandez!</h1>
+        <p>My bio (straight from google plus) hello everyone! My name is Nicolas Fernandez. I'm originally from NYC, Inwood (neighborhood above Washington Heights), in particular. I will be attending Wesleyan University in the fall and am still deciding on what major to choose from, most likely either CS, Environmental Studies, PoliSci or some combination of the three. I love sports (let's go Steph Curry!), music (from Pachabel's Canon in D to Tupac's Only God Can Judge Me), dancing (Hip Hop, Bachata, Salsa) and have many other interests. )</p>
+    <h2>Favorite Sports Teams!</h2>
+    <p id="Baseball">Baseball:</p>
+    <img src="https://upload.wikimedia.org/wikipedia/en/b/b4/St_Louis_Cardinals_1998-present_logo.png">
+    <p id="Basketball">Basketball:</p>
 
-          <h4>PHARRELL WILLIAMS</h4>
-          <h2>HAPPY</h2>
-          <h4>FROM DESPICABLE ME...</h4>
-          <!-- Level 4 'PHARRELL WILLIAMS' Header -->
-
-          <!-- Level 2 'HAPPY' Header -->
-
-          <!-- Level 4 '| FROM DESPICABLE ME..' Header -->
-
-        </div>
-      </div>
-
-      <div id="back" class="album">
-
-        <h3>FROM DESPICABLE ME...</h3>
-        <h1>HAPPY</h1>
-        <h3>FROM DESPICABLE ME...</h3>
-
-        <p>
-          PUBLISHED BY...
-        </p>
-        <span> PHARRELWILLIAMS.COM</span>
-
-        <!-- Level 3 '| FROM DESPICABLE ME...' Header -->
-
-        <!-- Level 1 'HAPPY' Header -->
-
-        <!-- Level 3 'WRITTEN BY...' Header -->
-
-        <!-- pararaph text 'PUBLISHED BY...' -->
-
-        <!-- span text 'PHARRELLWILLIAMS.COM' -->
-
-        <!-- image [columbia-logo.png] -->
-
-        <!-- span text 'COLUMBIARECORDS.COM' -->
-
-        <br>
-
-        <!-- image [sony-logo.png] -->
-
-      </div>
-    </div>
-  </body>
-</html>
+    <img src ="http://s1.ticketm.net/tm/en-us/dbimages/59693a">
+    <h2>What College Am I Attending?</h2>
+    <h3>Wesleyan University!</h3>
+    <img src="data:image/png;base64,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">
+    <a href="http://www.wesleyan.edu">Click here to learn more!<a/a>
+    <p>You can see me on google plus here: </p><a href="https://plus.google.com/u/0/">My G+<a/a>
+</div>
+<html>
