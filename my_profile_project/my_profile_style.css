@@ -1,6 +1,6 @@
 body {
-  color: black;
-
+  background: url(https://upload.wikimedia.org/wikipedia/commons/2/24/Male_mallard_duck_2.jpg);
+  /*background-size: cover;*/
 }
 #Baseball {
   color: red;
@@ -8,7 +8,6 @@ body {
 #Basketball {
   color: gold;
 }
-#DBZWallpaper {
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEc0HRI2ntG0wpPdRTNau6nF2_Po1TpHHE_yqbID4H3nLejfw4OQ);
-  background-size: cover;
+h1 {
+  text-align: center;
 }
