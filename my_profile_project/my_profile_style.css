@@ -1,0 +1,14 @@
+body {
+  color: black;
+
+}
+#Baseball {
+  color: red;
+}
+#Basketball {
+  color: gold;
+}
+#DBZWallpaper {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEc0HRI2ntG0wpPdRTNau6nF2_Po1TpHHE_yqbID4H3nLejfw4OQ);
+  background-size: cover;
+}
